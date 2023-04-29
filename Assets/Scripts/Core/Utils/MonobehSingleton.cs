@@ -44,7 +44,7 @@ namespace MyCat.Core.Util
             }
         }
 
-        protected void Awake()
+        protected virtual void Awake()
         {
             if (isDontDestroy)
             {
@@ -52,7 +52,7 @@ namespace MyCat.Core.Util
             }
         }
 
-        protected void Reset()
+        protected virtual void Reset()
         {
 #if UNITY_EDITOR
             if (FindObjectsOfType<T>().Length > 1)
