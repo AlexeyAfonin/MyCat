@@ -21,19 +21,19 @@ MonoBehaviour:
       reaction:
         animatorBoolVariable: IsPlay
         newMood: 0
-        description: 
+        description: Sitting in place
     - nameElement: Good
       mood: 2
       reaction:
         animatorBoolVariable: IsPlay
         newMood: 3
-        description: 
+        description: Slowly chasing the ball
     - nameElement: Great
       mood: 3
       reaction:
         animatorBoolVariable: IsPlay
         newMood: 0
-        description: 
+        description: She's running around like a madwoman
   - name: Feed
     icon: {fileID: 21300000, guid: 7e17d18289f74f44e9e073b894d872d2, type: 3}
     reactions:
@@ -42,19 +42,20 @@ MonoBehaviour:
       reaction:
         animatorBoolVariable: IsEat
         newMood: 2
-        description: 
+        description: It eats everything, but if you walk up at the same time, it
+          scratches
     - nameElement: Good
       mood: 2
       reaction:
         animatorBoolVariable: IsEat
         newMood: 3
-        description: 
+        description: It eats up everything eats everything
     - nameElement: Great
       mood: 3
       reaction:
         animatorBoolVariable: IsEat
         newMood: 0
-        description: 
+        description: It eats up everything eats everything
   - name: Pet
     icon: {fileID: 21300000, guid: 78433805f99d89c44b497f4750b04652, type: 3}
     reactions:
@@ -63,19 +64,19 @@ MonoBehaviour:
       reaction:
         animatorBoolVariable: IsPet
         newMood: 0
-        description: 
+        description: Scratch
     - nameElement: Good
       mood: 2
       reaction:
         animatorBoolVariable: IsPet
         newMood: 3
-        description: 
+        description: Purring
     - nameElement: Great
       mood: 3
       reaction:
         animatorBoolVariable: IsPet
         newMood: 0
-        description: 
+        description: Purrs and wagging his tail
   - name: Kick
     icon: {fileID: 21300000, guid: 957254808bfe95f4e9f55d16e7263261, type: 3}
     reactions:
@@ -84,16 +85,16 @@ MonoBehaviour:
       reaction:
         animatorBoolVariable: IsDamage
         newMood: 0
-        description: 
+        description: Jumping and Bites the right ear
     - nameElement: Good
       mood: 2
       reaction:
         animatorBoolVariable: IsDamage
         newMood: 1
-        description: 
+        description: Runs away on the the rug and pees
     - nameElement: Great
       mood: 3
       reaction:
         animatorBoolVariable: IsDamage
         newMood: 1
-        description: 
+        description: Runs off to another room room
