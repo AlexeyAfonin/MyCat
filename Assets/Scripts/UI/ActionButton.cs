@@ -9,6 +9,12 @@ public class ActionButton : MonoBehaviour
     [SerializeField] private Image icon;
     [SerializeField] private TMP_Text textView;
 
+    public bool Interactable
+    {
+        get => button.interactable;
+        set => button.interactable = value;
+    }
+
     public void Init(Action action, Sprite spriteAction, string textAction)
     {
         button.onClick.RemoveAllListeners();

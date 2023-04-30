@@ -19,18 +19,21 @@ MonoBehaviour:
     - nameElement: Bad
       mood: 1
       reaction:
+        animatorController: {fileID: 9100000, guid: f500ab547ef73da4983212f41a0e8f6d, type: 2}
         animatorBoolVariable: IsPlay
         newMood: 0
         description: Sitting in place
     - nameElement: Good
       mood: 2
       reaction:
+        animatorController: {fileID: 9100000, guid: f500ab547ef73da4983212f41a0e8f6d, type: 2}
         animatorBoolVariable: IsPlay
         newMood: 3
         description: Slowly chasing the ball
     - nameElement: Great
       mood: 3
       reaction:
+        animatorController: {fileID: 9100000, guid: f500ab547ef73da4983212f41a0e8f6d, type: 2}
         animatorBoolVariable: IsPlay
         newMood: 0
         description: She's running around like a madwoman
@@ -40,6 +43,7 @@ MonoBehaviour:
     - nameElement: Bad
       mood: 1
       reaction:
+        animatorController: {fileID: 9100000, guid: 4ac266172705e9a4b83a1574a742af24, type: 2}
         animatorBoolVariable: IsEat
         newMood: 2
         description: It eats everything, but if you walk up at the same time, it
@@ -47,12 +51,14 @@ MonoBehaviour:
     - nameElement: Good
       mood: 2
       reaction:
+        animatorController: {fileID: 9100000, guid: 4ac266172705e9a4b83a1574a742af24, type: 2}
         animatorBoolVariable: IsEat
         newMood: 3
         description: It eats up everything eats everything
     - nameElement: Great
       mood: 3
       reaction:
+        animatorController: {fileID: 9100000, guid: 4ac266172705e9a4b83a1574a742af24, type: 2}
         animatorBoolVariable: IsEat
         newMood: 0
         description: It eats up everything eats everything
@@ -62,18 +68,21 @@ MonoBehaviour:
     - nameElement: Bad
       mood: 1
       reaction:
+        animatorController: {fileID: 9100000, guid: ae0b22ea3b1d8184984a770165ea8d7c, type: 2}
         animatorBoolVariable: IsPet
         newMood: 0
         description: Scratch
     - nameElement: Good
       mood: 2
       reaction:
+        animatorController: {fileID: 9100000, guid: ae0b22ea3b1d8184984a770165ea8d7c, type: 2}
         animatorBoolVariable: IsPet
         newMood: 3
         description: Purring
     - nameElement: Great
       mood: 3
       reaction:
+        animatorController: {fileID: 9100000, guid: ae0b22ea3b1d8184984a770165ea8d7c, type: 2}
         animatorBoolVariable: IsPet
         newMood: 0
         description: Purrs and wagging his tail
@@ -83,18 +92,21 @@ MonoBehaviour:
     - nameElement: Bad
       mood: 1
       reaction:
+        animatorController: {fileID: 9100000, guid: 6b8ef59d5933f6245a2651cd6353c5f4, type: 2}
         animatorBoolVariable: IsDamage
         newMood: 0
         description: Jumping and Bites the right ear
     - nameElement: Good
       mood: 2
       reaction:
+        animatorController: {fileID: 9100000, guid: 6b8ef59d5933f6245a2651cd6353c5f4, type: 2}
         animatorBoolVariable: IsDamage
         newMood: 1
         description: Runs away on the the rug and pees
     - nameElement: Great
       mood: 3
       reaction:
+        animatorController: {fileID: 9100000, guid: 6b8ef59d5933f6245a2651cd6353c5f4, type: 2}
         animatorBoolVariable: IsDamage
         newMood: 1
         description: Runs off to another room room

@@ -1,11 +1,11 @@
-using MyCat.Structures;
+using UnityEditor.Animations;
 using static MyCat.Core.Util.Enums;
 
 namespace MyCat.Interfaces
 {
     public interface IReaction
     {
-        public string AnimatorBoolVariable { get; }
+        public AnimatorController AnimatorController { get; }
         public Mood NewMood { get; }
         public string Description { get; }
     }
